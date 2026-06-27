@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Raj Gems - Premium Natural Gemstone Trading Website",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "20.x"
   },
   "scripts": {
     "install:all": "npm install --prefix client && npm install --prefix server",

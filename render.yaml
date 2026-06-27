@@ -14,13 +14,6 @@ services:
         generateValue: true
       - key: CLIENT_URL
         value: https://raj-gems.onrender.com
-      # Add these in Render dashboard if you have Cloudinary:
-      # - key: CLOUDINARY_CLOUD_NAME
-      #   sync: false
-      # - key: CLOUDINARY_API_KEY
-      #   sync: false
-      # - key: CLOUDINARY_API_SECRET
-      #   sync: false
     disk:
       name: raj-gems-data
       mountPath: /opt/render/project/src/server/data
