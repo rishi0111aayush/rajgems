@@ -1,0 +1,23 @@
+// Per-category gradient colors — used in GemCard and EditGem
+export const CATEGORY_GRADIENTS = {
+  ruby:        { from: '#7B0000', via: '#C1001F', to: '#FF2D55', text: '#FF8A9A' },
+  emerald:     { from: '#004D1A', via: '#007A2B', to: '#00C44F', text: '#6EFFA0' },
+  sapphire:    { from: '#00186B', via: '#1A3FA8', to: '#4169E1', text: '#93B4FF' },
+  diamond:     { from: '#1C1C2E', via: '#3A3A5E', to: '#6B6BAE', text: '#D0D8FF' },
+  opal:        { from: '#1A3A4A', via: '#2E6B8A', to: '#48A9CC', text: '#A8DCF0' },
+  topaz:       { from: '#5C3200', via: '#AA6200', to: '#E8A000', text: '#FFD870' },
+  garnet:      { from: '#4A0010', via: '#8B0020', to: '#C41035', text: '#FF7090' },
+  pearl:       { from: '#3A3020', via: '#7A6A50', to: '#C8B89A', text: '#EDE0CE' },
+  amethyst:    { from: '#2E0050', via: '#5C00A0', to: '#9940D8', text: '#D0A0FF' },
+  turquoise:   { from: '#003830', via: '#006655', to: '#00C4A0', text: '#80FFE8' },
+  moonstone:   { from: '#1A2040', via: '#3050A0', to: '#6080D8', text: '#B8C8FF' },
+  aquamarine:  { from: '#003A3A', via: '#006E6E', to: '#00BABA', text: '#80FFFF' },
+  citrine:     { from: '#4A2E00', via: '#8C5800', to: '#D4880A', text: '#FFD070' },
+  tourmaline:  { from: '#4A0030', via: '#8B0060', to: '#D400A0', text: '#FF80DC' },
+  alexandrite: { from: '#0A3A0A', via: '#1A6A1A', to: '#2FAF2F', text: '#90FF90' },
+  'cats-eye':  { from: '#3A2800', via: '#7A5200', to: '#C4800A', text: '#F0C870' },
+  coral:       { from: '#5A1500', via: '#AA3000', to: '#E85000', text: '#FFB090' },
+  peridot:     { from: '#1E3A00', via: '#3E7A00', to: '#70C800', text: '#C8FF70' },
+  tanzanite:   { from: '#1A0040', via: '#380090', to: '#6000E0', text: '#C090FF' },
+  other:       { from: '#1A1A2E', via: '#2E2E50', to: '#4A4A80', text: '#A0A0D0' },
+}

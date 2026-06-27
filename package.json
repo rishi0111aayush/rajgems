@@ -1,0 +1,13 @@
+{
+  "name": "raj-gems",
+  "version": "1.0.0",
+  "description": "Raj Gems - Premium Natural Gemstone Trading Website",
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "dev:client":  "cd client && npm run dev",
+    "dev:server":  "cd server && npm run dev",
+    "build":       "cd client && npm run build",
+    "start":       "cd server && npm start"
+  },
+  "private": true
+}
